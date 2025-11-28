@@ -60,7 +60,7 @@ export default function AdminPanel() {
         }
     };
 
-    // --- User Handlers ---
+    // --- User Handlers d---
     const handleApproveUser = async (userId, role) => {
         try {
             await updateUserRole(userId, role);
