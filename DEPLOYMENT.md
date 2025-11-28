@@ -32,7 +32,7 @@ Esta guía te llevará paso a paso para desplegar tu aplicación Habilux a produ
 3. Configura lo siguiente:
    - **Root Directory:** `Habilux-3/server`
    - **Build Command:** `npm install && npx prisma generate && npx prisma migrate deploy`
-   - **Start Command:** `npm start`
+   - **Start Command:** `npx prisma migrate deploy && npm start`
 
 ### Paso 4: Configurar Variables de Entorno
 
