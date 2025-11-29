@@ -73,19 +73,6 @@ NODE_ENV=production
 ### Paso 1: Importar Proyecto
 
 1. Ve a [Vercel.com](https://vercel.com/) e inicia sesión
-2. Haz clic en **"Add New..."** → **"Project"**
-3. Importa tu repositorio de GitHub
-
-### Paso 2: Configurar el Proyecto
-
-1. **Framework Preset:** Vite
-2. **Root Directory:** Haz clic en **"Edit"** y escribe `Habilux-3/client`
-3. **Build Command:** `npm run build` (por defecto)
-4. **Output Directory:** `dist` (por defecto)
-
-### Paso 3: Configurar Variables de Entorno
-
-1. Antes de hacer deploy, expande **"Environment Variables"**
 2. Añade la siguiente variable:
 
 ```bash

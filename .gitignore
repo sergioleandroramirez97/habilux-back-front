@@ -38,7 +38,7 @@ Thumbs.db
 # Prisma
 server/prisma/dev.db
 server/prisma/dev.db-journal
-server/prisma/migrations/**/migration.sql
+
 
 # Uploads
 server/uploads/*
